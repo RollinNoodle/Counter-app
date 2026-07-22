@@ -1,0 +1,229 @@
+.background {
+    background: rgb(149, 180, 172);
+    transition: 0.6s;
+}
+
+.darkMode {
+    background: rgb(24, 24, 24);
+}
+
+.buttonSwitch {
+    color: white;
+    position: static;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(40, 144, 144);
+    border: solid 2px white;
+    border-radius: 18px;
+    cursor: pointer;
+    user-select: none;
+    font-weight: bold;
+}
+
+.buttonSwitch:hover {
+    color: white;
+    position: static;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(32, 113, 113);
+    border: solid 2px white;
+    border-radius: 18px;
+    cursor: pointer;
+    user-select: none;
+    font-weight: bold;
+}
+
+.buttonSwitch:active {
+    color: white;
+    position: static;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(73, 195, 195);
+    border: solid 2px white;
+    border-radius: 18px;
+    cursor: pointer;
+    user-select: none;
+    font-weight: bold;
+}
+
+.add {
+    color: white;
+    position: static;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(40, 144, 144);
+    border: solid 2px white;
+    border-radius: 25px;
+    font-size: 70px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.add:hover {
+    color: white;
+    position: static;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(32, 113, 113);
+    border: solid 2px white;
+    border-radius: 25px;
+    font-size: 70px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.add:active {
+    color: white;
+    position: static;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(73, 195, 195);
+    border: solid 2px white;
+    border-radius: 25px;
+    font-size: 70px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.take {
+    color: white;
+    position: static;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(40, 144, 144);
+    border: solid 2px white;
+    border-radius: 25px;
+    font-size: 100px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.take:hover {
+    color: white;
+    position: static;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(32, 113, 113);
+    border: solid 2px white;
+    border-radius: 25px;
+    font-size: 100px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.take:active {
+    color: white;
+    position: static;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(73, 195, 195);
+    border: solid 2px white;
+    border-radius: 25px;
+    font-size: 100px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.reset {
+    color: white;
+    position: static;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(40, 144, 144);
+    border: solid 2px white;
+    border-radius: 25px;
+    font-size: 30px;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.reset:hover {
+    color: white;
+    position: static;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(32, 113, 113);
+    border: solid 2px white;
+    border-radius: 25px;
+    font-size: 30px;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.reset:active {
+    color: white;
+    position: static;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(73, 195, 195);
+    border: solid 2px white;
+    border-radius: 25px;
+    font-size: 30px;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px;
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-inline-size: 1000px;
+    margin-inline: auto;
+}
+
+.count-number {
+    color: white;
+    display: flex;
+    font-size: 100px;
+    margin-inline: auto;
+    max-inline-size: 1000px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    user-select: none;
+    transition: 3s;
+}
