@@ -35,7 +35,7 @@ switchMode.addEventListener("click", () => {
         switchMode.style.backgroundColor = "rgb(95, 191, 191)"
     } else {
         switchMode.textContent = "Dark Mode!"
-        switchMode.style.backgroundColor = "rgb(38, 110, 110)"
+        switchMode.style.backgroundColor = "rgb(32, 114, 114)"
     }
 });
 
