@@ -30,13 +30,11 @@ const styleBtn = document.getElementById("modeBtn");
 
 switchMode.addEventListener("click", () => {
     document.body.classList.toggle("darkMode");
+
     if (document.body.classList.contains("darkMode")) {
         switchMode.textContent = "light mode!";
-        switchMode.style.backgroundColor = "rgb(95, 191, 191)"
     } else {
-        switchMode.textContent = "Dark Mode!"
-        switchMode.style.backgroundColor = "rgb(32, 114, 114)"
+        switchMode.textContent = "Dark Mode!";
     }
 });
-
 
