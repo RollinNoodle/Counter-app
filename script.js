@@ -25,16 +25,8 @@ theReset.addEventListener("click", () => {
 // dark mode:
 
 const switchMode = document.getElementById("dark-mode");
-const styleBtn = document.getElementById("modeBtn");
-
 
 switchMode.addEventListener("click", () => {
     document.body.classList.toggle("darkMode");
-
-    if (document.body.classList.contains("darkMode")) {
-        switchMode.textContent = "light mode!";
-    } else {
-        switchMode.textContent = "Dark Mode!";
-    }
 });
 
