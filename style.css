@@ -7,6 +7,11 @@
     background: rgb(24, 24, 24);
 }
 
+.button-style {
+    background-color: rgb(40, 144, 144);
+    color: white;
+}
+
 .buttonSwitch {
     color: white;
     position: static;
@@ -15,7 +20,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(40, 144, 144);
+    background-color: rgb(14, 48, 48);
     border: solid 2px white;
     border-radius: 18px;
     cursor: pointer;
@@ -225,5 +230,4 @@
     margin-top: 100px;
     margin-bottom: 50px;
     user-select: none;
-    transition: 3s;
 }
